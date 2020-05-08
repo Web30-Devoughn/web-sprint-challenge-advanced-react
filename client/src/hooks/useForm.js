@@ -11,5 +11,5 @@ export const useForm = initialValue => {
       };
 
 
-    return [ showSuccessMessage, setShowSuccessMessage]
+    return [ showSuccessMessage, setShowSuccessMessage, handleChanges]
 }
